@@ -1,21 +1,21 @@
-import './footer.module.css'
+import style from './Footer.module.css'
 const Footer = () => {
     return (
         <div>
-            <div className="footer-content">            
-            <div class="container-eight">
-            <div class="hero-area8">
-            <div class="loto-side">
+            <div className={style["footer-content"]}>            
+            <div class={style["container-eight"]}>
+            <div class={style["hero-area8"]}>
+            <div class={style["loto-side"]}>
                 <p>Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit. Arcu, sit risus mattis erat fermentum.</p>
             </div>
-            <div class="coustomer">
+            <div className={style["coustomer"]}>
                 <h2>Customer Support</h2>
                 <p>Shipping <br/>
                 Free Returns <br/> 
                 Track Your Order 
                 Gift Cards</p>
             </div>
-            <div class="about">
+            <div className={style["about"]}>
                 <h2>About Us</h2>
                 <p>Our Values <br/>
                 Sustainability <br/>
@@ -23,7 +23,7 @@ const Footer = () => {
                 Fitness Professionals
                 Gap Inc. <br/> Sustainability</p>
             </div>
-            <div class="services">
+            <div className={style["services"]}>
                 <h2>Customer Service</h2>
                 <p>Help <br/>
                 Leader Support <br/>
