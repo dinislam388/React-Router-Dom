@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #272829;
+}
+
+.form-box {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+/* ===========> Form_Box <============== */
+
+.form-box {
+    width: 250%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-10%, -50%);
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    padding: 50px 60px 70px ;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.form-box .log-here {
+    padding: 15px 115px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #F77102;
+    margin-bottom: 20px;
+}
+
+.form-box input {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 15px 50px;
+    background: none;
+    border-bottom: 1px solid #F77102;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: start;
+    color: #fff;
+    margin-right: 200px;
+}
+
+.form-box .login {
+    padding: 15px 139px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #F77102;
+    margin-bottom: 20px;
+    background: #F3E3CD;
+    border: none;
+    transition: all .3s ease;
+}
+
+.form-box .login:hover {
+    background: #F77102;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.form-box p {
+    color: #fff;
+    text-align: center;
+}
+
+.form-box p span {
+    color: #F77102;
+}

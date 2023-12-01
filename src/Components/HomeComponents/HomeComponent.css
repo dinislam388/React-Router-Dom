@@ -1,0 +1,43 @@
+.design {
+    display: flex;
+    gap: 44px;
+    align-items: center;
+    background-color: #191A1C;
+}
+.mainText {
+    padding-bottom: 2rem;
+    margin-left: 60px;
+    color: #fff;
+}
+
+.mainText h1 {
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.mainText p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.shopBtn {
+    background-color: #EF718D;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-left: 60px;
+    transition: all .3s ease;
+}
+
+.shopBtn:hover {
+    color: #fff;
+    background-color: #B51A34;
+}
+
+.heroImg {
+    margin-right: 60px;
+}
