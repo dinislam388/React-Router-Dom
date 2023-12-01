@@ -2,18 +2,10 @@ import './footer.css'
 const Footer = () => {
     return (
         <div>
-            <div className="footer-content">
-            {/* <h1 style={{color: 'red', marginTop: '30px'}}>This is Footer</h1> */}
-                {/* <p>&copy; 2023 Your Company</p>
-                <p>Contact: <a href="mailto:info@example.com">info@example.com</a></p> */}
-
-
-            {/* ================== */}
-            
+            <div className="footer-content">            
             <div class="container-eight">
             <div class="hero-area8">
             <div class="loto-side">
-                {/* <img src="Images/logoverdeclaro 1.png" alt=""/> */}
                 <p>Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit. Arcu, sit risus mattis erat fermentum.</p>
             </div>
             <div class="coustomer">
@@ -40,8 +32,6 @@ const Footer = () => {
             </div>
             </div>
             </div>
-
-           {/* ===================== */}
             </div>
         </div>
     );
