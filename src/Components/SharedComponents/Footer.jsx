@@ -3,9 +3,9 @@ const Footer = () => {
     return (
         <div>
             <div className={style["footer-content"]}>            
-            <div class={style["container-eight"]}>
-            <div class={style["hero-area8"]}>
-            <div class={style["loto-side"]}>
+            <div className={style["container-eight"]}>
+            <div className={style["hero-area8"]}>
+            <div className={style["loto-side"]}>
                 <p>Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit. Arcu, sit risus mattis erat fermentum.</p>
             </div>
             <div className={style["coustomer"]}>
