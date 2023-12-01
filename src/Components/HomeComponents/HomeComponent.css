@@ -31,6 +31,7 @@
     border-radius: 20px;
     margin-left: 60px;
     transition: all .3s ease;
+    cursor: pointer;
 }
 
 .shopBtn:hover {

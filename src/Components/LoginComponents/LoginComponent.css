@@ -73,6 +73,7 @@ body {
     background: #F3E3CD;
     border: none;
     transition: all .3s ease;
+    cursor: pointer;
 }
 
 .form-box .login:hover {
