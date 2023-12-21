@@ -11,7 +11,9 @@ const LoginComponent = () => {
                         <input type="password" name="" placeholder="Enter Password"/>
                         <br/>
                         <button class="login">Login</button>
-                        <p>Don't have an account? <br/> <span>Sign up</span> here!</p>
+                        {/* <p>Don't have an account? <br/> <span>Sign up</span> here!</p> */}
+                        <button>Go Back</button> 
+                        <button>Sign Up</button>
                     </div>
                     </div>
                 </div>

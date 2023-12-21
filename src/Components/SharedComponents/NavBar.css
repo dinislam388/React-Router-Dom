@@ -27,11 +27,15 @@
     font-size:20px;
   }
   
-  .navBar ul li a {
+  .navBar {
     color: #fff;
     transition: all .3s ease;
   }
 
-  .navBar ul a:hover {
+  .navBar a:hover {
+    color: #EF718D;
+  }
+
+  .active{
     color: #EF718D;
   }

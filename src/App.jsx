@@ -1,7 +1,6 @@
 import HomeComponents from "./Components/HomeComponents/HomeComponents";
 import Footer from "./Components/SharedComponents/Footer";
 import NavBar from "./Components/SharedComponents/NavBar";
-// import './App.css'
 const App = () => {
   return (
     <>
